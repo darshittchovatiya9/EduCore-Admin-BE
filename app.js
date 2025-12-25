@@ -21,7 +21,7 @@ app.use("/", appRouter);
 
 app.use('/', (req, res) => {
     return res.json({
-        message: 'JBS Admin',
+        message: 'EDUCORE Admin',
     });
 });
 
